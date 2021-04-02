@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Blog
+title: Hackworld.org
 email: blog@hackworld.org
 description: >- # this means to ignore newlines until "baseurl:"
   Blog bla bla bla
@@ -53,3 +53,4 @@ plugins:
 #   - vendor/ruby/
 
 show_downloads: false
+show_excerpts: true

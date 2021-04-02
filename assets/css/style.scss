@@ -1,0 +1,10 @@
+---
+---
+
+@import 'jekyll-theme-hacker';
+
+header h1:before {
+   content: none;
+}
+
+ul li { list-style-image: none; }

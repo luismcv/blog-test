@@ -1,0 +1,21 @@
+---
+layout: default
+---
+
+<h1 style="float:left;">{{ page.title }}</h1>
+<small style="float:right;">{{ page.date | date: "%d/%m/%Y" }}</small>
+
+<div style="clear:both">
+
+{{content}}
+  <br/>
+  <hr/>
+  <section>
+  {% if page.previous %}
+    <a style="float:left; text-decoration: none;" href="{{ page.previous.url }}">← {{page.previous.title}}</a>
+  {% endif %}
+  {% if page.next %}
+    <a style="float:right; text-decoration: none;" href="{{ page.next.url }}">{{page.next.title}} →</a>
+  {% endif %}
+  </section>
+</div>
